@@ -1,0 +1,51 @@
+[
+    {
+        "Name": "Isle Royale",
+        "Location": "Houghton, MI",
+        "Type": "National Park",
+        "Address": "800 East Lakeshore Drive / Houghton / MI / 49931",
+        "Description": "\nExplore a rugged, isolated island, far from the sights and sounds of civilization. Surrounded by Lake Superior, Isle Royale offers unparalleled solitude and adventures for backpackers, hikers, boaters, kayakers, canoeists and scuba divers. Here, amid stunning scenic beauty, you'll find opportunities for reflection and discovery, and make memories that last a lifetime.\n"
+    },
+    {
+        "Name": "Keweenaw",
+        "Location": "Calumet, MI",
+        "Type": "National Historical Park",
+        "Address": "25970 Red Jacket Road / Calumet / MI / 49913",
+        "Description": "\nFrom 7,000 years ago to the 1900s people mined Keweenaw copper. Native peoples made copper into tools and trade items. Investors and immigrants arrived in the 1800s in a great mineral rush, developing thriving industries and cosmopolitan communities. Though the mines have since closed, their mark is still visible on the land and people.\n"
+    },
+    {
+        "Name": "Motor Cities",
+        "Location": "Detroit, MI",
+        "Type": "National Heritage Area",
+        "Address": "200 Renaissance Center, Suite 3148 / Detroit / MI / 48243",
+        "Description": "\nIf you are interested in automotive history, then MotorCities National Heritage Area is the place to be. Tour the factory where Henry Ford created and built the Model T. Learn the stories behind the creation of General Motors and DamilerChrysler. Come with us and learn about the long and sometimes tenuous relationship between Labor and Industry while experiencing southeast Michigan.\n"
+    },
+    {
+        "Name": "North Country",
+        "Location": "Seven States-New York to North Dakota , MI,MN,ND,NY,OH,PA,WI",
+        "Type": "National Scenic Trail",
+        "Address": "219 E. Main Street / Lowell / MI / 49331",
+        "Description": "\nCome to the North Country. Trek the hills and valleys. Lakes and streams remain from glaciers that molded the landscape 10,000 years before. Experience clear-flowing water, the red and gold of autumn, a fairyland of snow, tall grass prairies, and distant horizons. From New York to North Dakota, you're never far from a great outdoor adventure. Experience your America at a walking pace.\n"
+    },
+    {
+        "Name": "Pictured Rocks",
+        "Location": "Munising, Grand Marais, MI",
+        "Type": "National Lakeshore",
+        "Address": "N8391 Sand Point Road / Munising / MI / 49862",
+        "Description": "\nSandstone cliffs, beaches, sand dunes, waterfalls, lakes, forest, and shoreline beckon you to visit Pictured Rocks National Lakeshore. Hiking, camping, sightseeing, and four season outdoor opportunities abound. The lakeshore hugs the Lake Superior shoreline for more than 40 miles. Lake Superior is the largest, deepest, coldest, and most pristine of all the Great Lakes.\n"
+    },
+    {
+        "Name": "River Raisin",
+        "Location": "MI",
+        "Type": "National Battlefield Park",
+        "Address": "1403 East Elm Street / Monroe / MI / 48162",
+        "Description": "\nRiver Raisin National Battlefield Park preserves, commemorates, and interprets the January 1813 battles of the War of 1812 and their aftermath in Monroe and Wayne counties in SE Michigan. The Battle resulted in the greatest victory for Tecumseh\u2019s American Indian confederation and the greatest defeat for the U.S. The resulting rally cry \u201cRemember the Raisin\u201d spurred support for the rest of the war.\n"
+    },
+    {
+        "Name": "Sleeping Bear Dunes",
+        "Location": "Empire, MI",
+        "Type": "National Lakeshore",
+        "Address": "9922 Front Street / Empire / MI / 49630",
+        "Description": "\nMiles of sand beach, bluffs that tower 450\u2019 above Lake Michigan, lush forests, clear inland lakes, unique flora and fauna make up the natural world of Sleeping Bear Dunes. High dunes afford spectacular views across the lake. An island lighthouse, US Life-Saving Service stations, coastal villages, and picturesque farmsteads reflect the park\u2019s rich maritime, agricultural, and recreational history.\n"
+    }
+]

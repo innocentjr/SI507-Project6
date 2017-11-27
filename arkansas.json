@@ -1,0 +1,61 @@
+[
+    {
+        "Name": "Arkansas Post",
+        "Location": "Gillett, AR",
+        "Type": "National Memorial",
+        "Address": "1741 Old Post Road / Gillett / AR / 72055",
+        "Description": "\nLocated at the confluence of two rivers, Arkansas Post has served as a gathering place for many cultures throughout human history - it represents cultural cooperation, conflict, synthesis, and diversity.\n"
+    },
+    {
+        "Name": "Buffalo",
+        "Location": "Harrison and St. Joe, AR",
+        "Type": "National River",
+        "Address": "170 Ranger Road / St. Joe / AR / 72675",
+        "Description": "\nEstablished in 1972, Buffalo National River flows freely for 135 miles and is one of the few remaining undammed rivers in the lower 48 states. Once you arrive, prepare to journey from running rapids to quiet pools while surrounded by massive bluffs as you cruise through the Ozark Mountains down to the White River.\n"
+    },
+    {
+        "Name": "Fort Smith",
+        "Location": "Fort Smith, AR,OK",
+        "Type": "National Historic Site",
+        "Address": "301 Parker Ave / Fort Smith / AR / 72901",
+        "Description": "\nFrom the establishment of the first Fort Smith on December 25, 1817, to the final days of Judge Isaac C. Parker's jurisdiction over Indian Territory in 1896, Fort Smith National Historic Site preserves almost 80 years of history.\nExplore life on the edge of Indian Territory through the stories of soldiers, the Trail of Tears, dangerous outlaws, and the brave lawmen who pursued them.\n"
+    },
+    {
+        "Name": "Hot Springs",
+        "Location": "Hot Springs, AR",
+        "Type": "National Park",
+        "Address": "369 Central Avenue / Hot Springs / AR / 71901",
+        "Description": "\nWater. That's what first attracted people, and they have been coming here ever since to use these soothing thermal waters to heal and relax. Rich and poor alike came for the baths, and a thriving city built up around the hot springs. Together nicknamed The American Spa",
+        "null": [
+            " Hot Springs National Park today surrounds the north end of the city of Hot Springs, Arkansas. Come discover it for yourself.\n"
+        ]
+    },
+    {
+        "Name": "Little Rock Central High School",
+        "Location": "Little Rock, AR",
+        "Type": "National Historic Site",
+        "Address": "Little Rock, AR\n72202 / Little Rock / AR / 72202",
+        "Description": "\nLittle Rock Central High School is recognized for the role it played in the desegregation of public schools in the United States.  The nine African-American students' persistence in attending the formerly all-white Central High School was the most prominent national example of the implementation of the May 17, 1954 Supreme Court decision Brown v. Board of Education.\n"
+    },
+    {
+        "Name": "Pea Ridge",
+        "Location": "Pea Ridge, AR",
+        "Type": "National Military Park",
+        "Address": "15930 E Hwy 62 / Garfield / AR / 72732",
+        "Description": "\nOn March 7-8, 1862, 26,000 soldiers fought here to decide the fate of Missouri and the West.  The 4,300 acre battlefield honors those who fought for their beliefs. Pea Ridge was one of the most pivotal Civil War battles and is the most intact Civil War battlefield in the United States.\n"
+    },
+    {
+        "Name": "President William Jefferson Clinton Birthplace Home",
+        "Location": "Hope, AR",
+        "Type": "National Historic Site",
+        "Address": "412 Division Street / Hope / AR / 71801",
+        "Description": "\nOn August 19, 1946, Virginia Blythe gave birth to her son, William Jefferson Blythe, III. Named for his father who died before he was born, he grew up to become William Jefferson Clinton - the 42nd president of the United States. In this house, he learned many of the early lessons that defined his life and his presidency.\n"
+    },
+    {
+        "Name": "Trail Of Tears",
+        "Location": "AL,AR,GA,IL,KY,MO,NC,OK,TN",
+        "Type": "National Historic Trail",
+        "Address": "National Trails Intermountain Region / Trail of Tears National Historic Trail / 1100 Old Santa Fe Trail / Santa Fe / NM / 87505",
+        "Description": "\nRemember and commemorate the survival of the Cherokee people, forcefully removed from their homelands in Georgia, Alabama, and Tennessee to live in Indian Territory, now Oklahoma. They traveled by foot, horse, wagon, or steamboat in 1838-1839.\n"
+    }
+]
