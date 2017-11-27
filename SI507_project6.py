@@ -30,7 +30,7 @@ def get_connection_and_cursor():
              cur.close()
              conn.close()
              conn = psycopg2.connect("dbname='{}' user='{}' password='{}'".format(db_name, db_user, db_password)) # No password on the databases yet -- wouldn't want to save that in plain text, anyway
-                 # Remember: need to, at command prompt or in postgres GUI: createdb test507_music (or whatever db name is in line ^)
+                 #Remember: need to, at command prompt or in postgres GUI: createdb test507_music (or whatever db name is in line ^)
              print("Success connecting to database")
 
         except:
@@ -50,6 +50,8 @@ def setup_database(conn, cur):
     conn.commit()
 
     cur.execute("CREATE TABLE States(ID SERIAL PRIMARY KEY, Name VARCHAR(40) UNIQUE)")
+    conn.commit()
+    
     cur.execute("CREATE TABLE Sites (ID SERIAL PRIMARY KEY, Name VARCHAR(128) UNIQUE, Type VARCHAR(128), State_ID INTEGER REFERENCES States(ID) NOT NULL, Location VARCHAR(255), Description TEXT)")
     conn.commit()
     print('Setup database complete')
