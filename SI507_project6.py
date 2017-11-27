@@ -29,7 +29,7 @@ def get_connection_and_cursor():
              cur.execute(sql + db_Name)
              cur.close()
              conn.close()
-             conn = psycopg2.connect("dbname='innoobi_507project6' user='innocentndubuisi-obi'") # No password on the databases yet -- wouldn't want to save that in plain text, anyway
+             conn = psycopg2.connect("dbname='innoobi_507project6' user='{}' password='{}'".format(db_user, db_password)) # No password on the databases yet -- wouldn't want to save that in plain text, anyway
                  # Remember: need to, at command prompt or in postgres GUI: createdb test507_music (or whatever db name is in line ^)
              print("Success connecting to database")
 
