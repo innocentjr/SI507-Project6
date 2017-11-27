@@ -8,28 +8,28 @@ import sys
 import psycopg2.extras
 
 conn, cur = None, None
+db_name = "innoobi_507project6"
 
 # Write code / functions to set up database connection and cursor here.
 
 
 def get_connection_and_cursor():
-    global conn, cur
+    global conn, cur, db_name
     try:
-        conn = psycopg2.connect("dbname='innoobi_507project6' user='{}' password='{}'".format(db_user, db_password)) # No password on the databases yet -- wouldn't want to save that in plain text, anyway
+        conn = psycopg2.connect("dbname='{}' user='{}' password='{}'".format(db_name, db_user, db_password)) # No password on the databases yet -- wouldn't want to save that in plain text, anyway
             # Remember: need to, at command prompt or in postgres GUI: createdb test507_music (or whatever db name is in line ^)
         print("Success connecting to database")
 
     except:
         try:
              conn = psycopg2.connect("dbname='postgres' user='{}' password='{}'".format(db_user, db_password)) # No password on the databases yet -- wouldn't want to save that in plain text, anyway
-             db_Name = "innoobi_507project6"
              conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
              cur = conn.cursor()
              sql = """CREATE DATABASE """
-             cur.execute(sql + db_Name)
+             cur.execute(sql + db_name)
              cur.close()
              conn.close()
-             conn = psycopg2.connect("dbname='innoobi_507project6' user='{}' password='{}'".format(db_user, db_password)) # No password on the databases yet -- wouldn't want to save that in plain text, anyway
+             conn = psycopg2.connect("dbname='{}' user='{}' password='{}'".format(db_name, db_user, db_password)) # No password on the databases yet -- wouldn't want to save that in plain text, anyway
                  # Remember: need to, at command prompt or in postgres GUI: createdb test507_music (or whatever db name is in line ^)
              print("Success connecting to database")
 
